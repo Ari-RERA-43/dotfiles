@@ -27,7 +27,7 @@ alias hello='~/scripts/welcome'
 alias welcome='~/scripts/welcome'
 
 # ls
-alias ls='ls --color=auto' # Just in case it isn't in ~/.bashrc for some reason
+alias ls='ls -h --color=auto' # Just in case it isn't in ~/.bashrc for some reason
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
