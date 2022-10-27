@@ -21,7 +21,8 @@ alias :wq='exit'
 alias q='exit'
 alias sdn='shutdown now'
 alias unzip='7z x'
-alias rsh='exec $SHELL' # This works for what I usually need it to do, which is reloading aliases or the prompt script. Stands for "restart shell". 
+alias rsh='exec $SHELL' # This works for what I usually need it to do, which is reloading aliases or the prompt script. Stands for "restart shell".
+alias pyhttp='python3 -m http.server'
 
 # Scripts
 alias hello='~/scripts/welcome'
