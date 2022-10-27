@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # This file includes anything that should be added onto the .bashrc. Some stuff may be redundant, but this way
 # it's less likely to break anything distro-specific in .bashrc.
 
