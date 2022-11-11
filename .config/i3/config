@@ -49,6 +49,8 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec kitty
+#	One of my laptops has an unusual keyboard where the return key is registered as <KP_Enter> instead of <Return>
+bindsym $mod+KP_Enter exec kitty
 
 # kill focused window
 bindsym $mod+q kill
