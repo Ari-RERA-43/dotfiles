@@ -194,6 +194,10 @@ bindsym $mod+r mode "resize"
 # Make borders thicker
 default_border normal 3
 
+# Remove window title bars
+default_floating_border none
+font pango:JetBrains Mono 0
+
 # Set the wallpaper to the file located at ~/Images/Wallpapers/_wallpaper
 exec_always --no-startup-id feh --bg-scale $HOME/Images/Wallpapers/_wallpaper
 
